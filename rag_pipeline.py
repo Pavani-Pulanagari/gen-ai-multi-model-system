@@ -1,7 +1,6 @@
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.llms import HuggingFacePipeline
-from langchain.chains import RetrievalQA
 from transformers import pipeline
 
 def build_rag_pipeline():
